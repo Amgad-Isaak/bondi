@@ -1,0 +1,38 @@
+ <section>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-xl-4 col-md-4 col-sm-2 col-xs-2">
+                        <div class="squers">
+                            <div class="squer1">
+                                <img src="./Help/Meet the team/work-01.jpg" alt="">
+                            </div>
+                            <div class="squer2">
+                                <img src="./Help/Meet the team/work-02.jpg" alt="">
+                            </div>
+                            <div class="squer3">
+                                <img src="./Help/Meet the team/work-03.jpg" alt="">
+                            </div>
+                            <div class="squer4">
+                                <img src="./Help/Meet the team/work-04.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="squers">
+                            <div class="squer1-1">
+                                <img src="./Help/Meet the team/work-05.jpg" alt="">
+                            </div>
+                            <div class="squer2-1">
+                                <img src="./Help/Meet the team/work-06.jpg" alt="">
+                            </div>
+                            <div class="squer3-1">
+                                <img src="./Help/Meet the team/work-07.jpg" alt="">
+                            </div>
+                            <div class="squer4-1">
+                                <img src="./Help/Meet the team/work-08.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
