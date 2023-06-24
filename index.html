@@ -8,34 +8,54 @@
     <title>Bondi</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/media.css">
     <script src="https://kit.fontawesome.com/a52c762440.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="header">
-        <nav>
-            <img src="./Help/Meet the team/bbb.png" alt="">
-            <div>
-                <div class="nav-links">
-                    <ul>
-                        <li><a href="#"><span>Home</span></a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Abuot</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="Help/assets/logo.png" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
+                aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="search search ps-3 pe-3 d-none d-lg-block">
+                    <i class="search-1 fa-solid fa-magnifying-glass"></i>
                 </div>
-                <div class="hr"></div>
-                <i class="fa fa-search"></i>
-                <div class="Login"><button>Login</button></div>
-            </div>
-        </nav>
-        <div>
-            <h1>Taste The Creativity</h1>
-            <p>we make awesome graghic and web design</p>
-            <div class="Started"><button>Get Started</button></div>
+                <div class="button-1">
+                    <a class="button-2  btn rounded-pill main-btn" href="#">Login</a>
+                </div>
+               </div>
         </div>
+    </nav>
+
+    <div class="landing">
+        <h1>Taste The Creativity</h1>
+        <p>we make awesome graghic and web design</p>
+        <div class="Started"><button>Get Started</button></div>
     </div>
+
 
     <div class="center">
         <div class="hideen">
@@ -96,7 +116,7 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-xl-4 col-md-4 col-sm-2 col-xs-2">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                         <div class="squers">
                             <div class="squer1">
                                 <div class="product">
@@ -134,8 +154,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="squers">
                             <div class="squer1-1">
                                 <div class="product">
                                     <div class="show"><img src="./Help/Meet the team/work-05.jpg" alt=""></div>
@@ -173,6 +191,9 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="squers">
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -196,27 +217,29 @@
         <section>
             <div class="containar">
                 <div class="row">
-                    <div class="col-xl-6 col-md-6 col-sm-2 col-xs-2">
-                        <div class="ratine">
-                            <div class="Retina-Design">
-                                <h1>Retina Design</h1>
-                                <h6> Vestibulum ac diam sit amet quam
-                                    vehicula elementum sed sit amet dui.
-                                    Mauris
-                                    blandit aliquet elit, eget
-                                    tincidunt nibh pulvinar a.</h6>
+                    <div class="col-xl-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="Retina-Design">
+                            <h1>Retina Design</h1>
+                            <h6> Vestibulum ac diam sit amet quam
+                                vehicula elementum sed sit amet dui.
+                                Mauris
+                                blandit aliquet elit, eget
+                                tincidunt nibh pulvinar a.</h6>
 
-                                <h5> Donec rutrum congue leo eget malesuada.
-                                    Mauris blandit aliquet elit, eget
-                                    tincidunt
-                                    nibh pulvinar a.
-                                    Pellentesque in ipsum id orci porta
-                                    dapibus. Proin eget tortor risus. Donec
-                                    sollicitudin molestie
-                                    malesuada.
-                                </h5>
-                                <button>OREDER ME ONE</button>
-                            </div>
+                            <h5> Donec rutrum congue leo eget malesuada.
+                                Mauris blandit aliquet elit, eget
+                                tincidunt
+                                nibh pulvinar a.
+                                Pellentesque in ipsum id orci porta
+                                dapibus. Proin eget tortor risus. Donec
+                                sollicitudin molestie
+                                malesuada.
+                            </h5>
+                            <button>OREDER ME ONE</button>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="imgaser">
                             <img src="Help/Meet the team/lap.png" alt="">
                         </div>
                     </div>
@@ -356,67 +379,70 @@
             </div>
         </section>
     </div>
+    <footer>
 
+    </footer>
     <div class="footer">
         <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
                         <img src="./Help/Meet the team/bbb.png" alt="">
-                        <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                        <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur
+                            sed, convallis at tellus.</p>
                         <div class="copyright">
-                            Created By <span>Amgad Isaak</span> 
+                            Created By <span>Amgad Isaak</span>
                             <div class="Inc">
-                                 &copy; 2022 - <span>Bondi Inc</span> 
+                                &copy; 2022 - <span>Bondi Inc</span>
                             </div>
                         </div>
                     </div>
 
-                <div class="col-lg-2 col-md-6">
-                    <div class="Links">
-                        <ul class="list-unstyled">
-                            <li><span>Links</span></li>
-                            <li>Home</li>
-                            <li>Our Services</li>
-                            <li>Portfolio</li>
-                            <li>Testimonials</li>
-                            <li>Support</li>
-                            <li>Terms and Condition</li>
-                        </ul>    
+                    <div class="col-lg-2 col-md-6">
+                        <div class="Links">
+                            <ul class="list-unstyled">
+                                <li><span>Links</span></li>
+                                <li>Home</li>
+                                <li>Our Services</li>
+                                <li>Portfolio</li>
+                                <li>Testimonials</li>
+                                <li>Support</li>
+                                <li>Terms and Condition</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-lg-2 col-md-6">
-                    <div class="Links">
-                        <ul class="list-unstyled">
-                            <li><span>About Us</span></li>
-                            <li>Sign In</li>
-                            <li>Register</li>
-                            <li>About Us</li>
-                            <li>Blog</li>
-                            <li>Contact Us</li>
-                        </ul>    
+                    <div class="col-lg-2 col-md-6">
+                        <div class="Links">
+                            <ul class="list-unstyled">
+                                <li><span>About Us</span></li>
+                                <li>Sign In</li>
+                                <li>Register</li>
+                                <li>About Us</li>
+                                <li>Blog</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>  
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="Contact-Us">
-                        <h3 class="text-light">Contact Us</h3> 
-                        <p>Get in touch with us via mail phone.We are waiting for your call or message</p>   
-                        <button class="graphberry">graphberry@gmail.com</button>
-                        <div class="images-4">
-                        <img src="./Help/Meet the team/facebook.png" alt="">
-                        <img src="./Help/Meet the team/gmail.png" alt="">
-                        <img src="./Help/Meet the team/wifi.png" alt="">
-                        <img src="./Help/Meet the team/tiwtter.png" alt="">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="Contact-Us">
+                            <h3 class="text-light">Contact Us</h3>
+                            <p>Get in touch with us via mail phone.We are waiting for your call or message</p>
+                            <button class="graphberry">graphberry@gmail.com</button>
+                            <div class="images-4">
+                                <img src="./Help/Meet the team/facebook.png" alt="">
+                                <img src="./Help/Meet the team/gmail.png" alt="">
+                                <img src="./Help/Meet the team/wifi.png" alt="">
+                                <img src="./Help/Meet the team/tiwtter.png" alt="">
+                            </div>
+                        </div>
                     </div>
-                    </div>
-                </div>
 
                 </div>
             </div>
         </section>
-        </div>
+    </div>
     <script src="./js/bootstrap.min.js"></script>
 </body>
 
