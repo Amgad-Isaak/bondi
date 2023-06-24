@@ -1,0 +1,57 @@
+/*Smart Phone and Tablets*/
+
+@media (max-width:767px) {
+    .header .nav-links ul li a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+/*Small Screen*/
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .squers>div {
+        width: 100%;
+        height: 100%;
+    }
+    .About-us {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/*Medium Screen*/
+
+@media(min-width:992px) and (max-width: 1199px) {}
+
+/*Large Screen*/
+
+@media(min-width:1200px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
